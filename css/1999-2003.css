@@ -1,0 +1,16 @@
+table {
+	width: 700px;
+}
+
+table, th, td {
+	border: 1px solid black;
+}
+
+.sidepanel {
+	width: 250px;
+	float: left;
+}
+
+.mainpanel {
+	width: 450px;
+}
