@@ -1,16 +1,46 @@
-table {
+body {
+	border: 1px solid black;
 	width: 700px;
 }
 
 table, th, td {
+	/*border: 1px solid black !important;*/
+}
+
+table {
+	width: 100%;
 	border: 1px solid black;
 }
 
-.sidepanel {
+tr.blank {
+	height: 15px;
+}
+
+th.left {
+	text-align: left;
+}
+
+td.right {
+	text-align: right;
+}
+
+#sidepanel {
 	width: 250px;
 	float: left;
 }
 
-.mainpanel {
+#sidepanel th {
+	text-align: left;
+}
+
+#sidepanel td:first-child {
+	padding-left: 10px;
+}
+
+#mainpanel {
 	width: 450px;
+}
+
+#mainpanel tr {
+	text-align: left;
 }
