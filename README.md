@@ -1,4 +1,4 @@
-# Web History Timrline
+# Web History Timeline
 
 A timeline of the web history for the **Visual Web History** class at [IADE](https://www.iade.europeia.pt/).
 
